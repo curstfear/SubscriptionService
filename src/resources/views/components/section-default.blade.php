@@ -1,6 +1,6 @@
 @props(['section'])
 
-<section class="mb-[120px]">
+<section class="mb-[150px]">
     <div class="flex {{ $section->is_reversed ? 'flex-row-reverse' : 'flex-row' }} items-center justify-around">
         @if($section->image_url)
             <img class="max-w-sm" src="{{ asset('storage/' . $section->image_url) }}" alt="{{ $section->title }}">

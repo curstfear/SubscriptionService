@@ -24,4 +24,9 @@ class Section extends Model
     {
         return $this->hasMany(Logo::class);
     }
+
+    public function plans()
+    {
+        return $this->hasMany(Plan::class);
+    }
 }

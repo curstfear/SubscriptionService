@@ -1,4 +1,4 @@
-<section class="top mb-[150px]">
+<section class="top mb-[100px]">
     <div class="flex flex-row items-center justify-around">
         <div class="flex flex-col">
             <h2 class="font-bold text-8xl mb-[30px]">{{ $section->title }}</h2>
