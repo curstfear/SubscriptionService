@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Section extends Model
 {
     use SoftDeletes;
-    protected $fillable = ['name', 'title', 'description', 'image_url', 'link', 'order', 'page_id'];
+    protected $fillable = ['name', 'title', 'description', 'image_url', 'is_reversed','link', 'order', 'is_visible', 'page_id'];
 
     public function page()
     {
